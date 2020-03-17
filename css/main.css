@@ -1,0 +1,1052 @@
+/* ..................................... ENTETE ................................ */
+
+@font-face {
+  
+    src: url("../fonts/AvenirNextLTPro-UltLt.otf") format("opentype");
+    font-family: 'AvenirNextLTPro-UltLt';
+}
+
+
+@font-face {
+  
+    src: url("../fonts/AvenirLTStd-Book.otf") format("opentype");
+    font-family: 'AvenirLTStd-Book';
+}
+
+@font-face {
+  
+    src: url("../fonts/DecimaMonoX.otf") format("opentype");
+    font-family: 'DecimaMonoX';
+}
+
+@font-face {
+  
+    src: url("../fonts/Decima\ Mono\ X\ Light.otf") format("opentype");
+    font-family: 'DecimaMonoXlt';
+}
+
+
+
+
+img{
+	width:100%;
+}
+
+
+* {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Mono'; */
+    word-wrap: break-word;  
+	outline: none;
+}
+
+ul{
+    list-style:none;
+   /* text-align: center; */
+    font-weight:600;
+}
+
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color:black;
+
+
+}
+
+
+a:active, a:focus, a:hover{
+    text-decoration: none;
+color: rgb(139, 139, 139);
+
+
+}
+
+#particle-canvas {
+    width: 100%;
+    height: 410px;
+    margin-bottom:100px;
+
+}
+
+#particle-canvas2 {
+    width: 100%;
+    height: 150px;
+  
+
+}
+#canvasContainer2{
+    position:absolute;
+    z-index:0;
+    height:150px;
+    bottom:0;
+
+    width:100%;
+}
+
+
+#particle-canvas3 {
+    width: 100%;
+    height: 150px;
+  
+
+}
+#canvasContainer3{
+    position:absolute;
+    z-index:0;
+    height:150px;
+    width:15%;
+    right:6%;
+
+}
+
+
+
+
+
+
+.dispNone{
+display:none;
+
+}
+
+
+/* ...............................FIN ENTETE................................... */
+
+/* read more */
+
+#readMore1, #readMore2, #readMore3 {
+    margin: 30px 30px 30px 30px;
+    width:100px;
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:2px 2px 5px #aaa;
+	background:#fff;
+	font-weight:600;
+    color:#555;
+    cursor: pointer;
+
+}
+
+/* ...............................BODY................................... */
+#body{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    /* overflow-x: hidden; */
+
+}
+
+
+/* ...............................SIDE BAR................................... */
+#sideBar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    height:100vh;
+    width:20%;
+    top:0px;
+    justify-content :flex-start;
+    /* justify-content:space-between; */
+
+
+    color:black;
+    list-style-type: none; 
+
+
+  
+
+}
+
+#logo{
+
+    display:flex;
+    justify-content: center;
+
+}
+
+#logo img{
+
+    max-width:61.8%;
+}
+#nomPrenom{
+
+    font-size:110%;
+}
+
+
+#idCard{
+    /* margin:16% 0 80px 0; */
+    
+    margin:4vh 0vh 6vh 0vh;
+    width:100%;
+    
+}
+
+
+@media only screen and (max-height: 750px){
+    #idCard{
+
+        margin:4vh 0vh 1vh 0vh;
+     
+        
+    }
+}
+
+
+
+
+
+#infos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Networks{
+    margin-top:20px;
+    font-size: 200%;
+}
+
+.fa-file-pdf{
+
+font-size:85%;
+}
+
+.title1{
+font-size: 110%;
+
+}
+
+.title2{
+    font-size: 90%;
+    font-weight:400;
+
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+
+
+}
+
+
+#progress{
+
+width:20px;
+height:300px;
+}
+
+#myCursor{
+    position:absolute;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background-color: black;
+    margin-top:8px;
+    margin-right:8px;
+ 
+
+}
+
+
+/* ...............................MAIN................................... */
+#main{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    right:0px;
+    height:auto;
+    width:80%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.section{
+    margin-bottom:100px;
+}
+
+.section2{
+    margin-bottom:50px;
+}
+
+h2{
+    margin-bottom:30px;
+    font-size: 500%;
+    font-family: 'AvenirNextLTPro-UltLt';
+    text-transform: uppercase;
+    font-weight:300;
+
+}
+#blank{
+    width:100%;
+    height:100px;
+
+
+}
+
+#formation h2{
+
+    margin-bottom:0px;
+}
+
+#formation h2{
+    margin-bottom:0px;
+
+}
+
+h3{
+    margin-bottom:70px;
+    font-size: 250%;
+    font-family: 'DecimaMonoX';
+    font-weight:400;
+    /* text-transform: uppercase; */
+
+}
+
+h4{
+    margin-bottom:25px;
+    
+    
+}
+
+.realisation{
+    margin-bottom:60px; 
+    width:100%;
+}
+
+.square{
+    margin-bottom:50px;
+}
+
+.realisationSlide{
+display:flex;
+position:relative;
+height:53vw;
+
+flex-direction:column;
+align-content: center;
+justify-content: center;
+margin-bottom:100px; 
+
+}
+
+.realisationSlidePC{
+    display:flex;
+    position:relative;
+    height:40%;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom:100px; 
+    width:90%;
+    
+    
+}
+
+
+
+
+/* ...............................COMPETENCES................................... */
+#competences{
+
+
+}
+
+.pngIcon{
+width:80px;
+}
+
+
+
+
+
+.section3{
+    display:flex;
+    flex-direction: column;
+    
+   align-items:center;
+    width:100%;
+
+ 
+
+}
+
+/* .section3 h4{
+width:67%;
+text-align:left;
+} */
+
+.section3Icons{
+    display:flex;
+    flex-direction: row;
+    width:67%;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+.section3Icons p{
+    font-size: 120%;
+    font-weight:600;
+}
+.section3Icons i{
+    font-size: 524%;
+}
+
+
+.section3Icons div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:160px;
+ 
+
+
+
+}
+
+.iconName{
+    font-size: 30%;
+
+}
+
+.section3 h4{
+font-size: 130%;
+
+}
+
+
+/* ...............................FORMATION................................... */
+#formation{
+    /* width:100%;
+    margin-top:70px; */
+
+    width:100%;
+    height:auto;
+
+
+
+
+
+}
+
+#timelineBigContainer{
+position:relative;
+width:100%;
+
+}
+
+
+
+#timelineContainer{
+ position:absolute;
+ width:100%;
+ top:0px;
+ 
+
+
+
+}
+
+
+#myTimeline{
+    position:relative;
+
+
+}
+.period{
+    width:100%;
+    height:150px;
+
+}
+.dot, .stroke{
+    position:absolute;
+    background-color: black;
+    right:50%;
+}
+
+.dot{
+    margin-right:-6px;
+    width:15px;
+    height:15px;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+
+
+
+
+
+
+.time{
+    position:absolute;
+
+}
+
+
+.right{
+text-align: left;
+}
+
+
+.left{
+text-align: right;
+}
+
+
+
+.timeTitle{
+font-weight:700;
+}
+
+.timeDate{
+    position:absolute;
+    font-weight:700;
+
+}
+
+
+/* ...............................REALISATIONS................................... */
+#realisations{
+display:flex;
+flex-direction:column;
+}
+
+.infoRealisation{
+    display:flex;
+    margin-left:10%;
+    flex-direction:column;
+    text-align: left;
+
+
+
+
+}
+
+
+.infoRealisation p, .infoRealisation h4{
+    font-family: 'PT mono';
+}
+
+
+/* #realisationWeb .realisation{
+
+ display:flex;
+ justify-content:center;
+}
+#realisationWeb .infoRealisation{
+
+    margin:0;
+} */
+
+
+/* video */
+
+#progressBar{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height:50px;
+
+}
+#progressLine{
+
+    background-color:black;
+    width: 50%;
+    height:2px;
+    margin-top:23px;
+}
+
+#myPosition{
+    position:absolute;
+    background-color:black;
+    width: 12px;
+    height:12px;
+    border-radius:50%;
+    left:25%;
+    top:18px;
+
+}
+
+
+#playIcon{
+    position:absolute;
+    width:40px;
+    left:17%;
+    top:5px
+
+}
+
+
+#pauseIcon{
+    position:absolute;
+    width:40px;
+    left:17%;
+    top:5px
+}
+
+
+.videoContainer{
+width:100%;
+}
+
+
+
+  
+
+
+
+
+.imgRealisationLarge{
+width:67%;
+margin-bottom:50px;
+}
+.imgRealisationSmall{
+    width:40%;
+    margin-bottom:50px;
+    }
+
+
+#biodiversite{
+    width:40%;
+}
+
+#religion{
+    width:50%;
+}
+.poemeContainer{
+    display:flex;
+    justify-content:center;
+}
+
+
+#realisationOther{
+    margin-bottom:0;
+}
+/* ............................PASSIONS............................ */
+
+
+
+
+
+
+
+
+/* ...............................CONTACT................................... */
+#contact{
+
+    width:100%;
+    height:auto;
+    text-align: center;
+
+}
+
+
+#contactFormContainer{
+    max-height:850px;
+}
+
+.fa-graduation-cap{
+
+font-size: 130%;
+
+}
+
+
+/* ................stars................. */
+
+/* #starsBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+  }
+  #starsBox span {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    border-radius: 100%;
+    transition: 100s linear;
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+   *{box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+
+   
+   .CSSgal {
+       position: relative;
+       overflow: hidden;
+       height: 100%; /* Or set a fixed height */
+       width:67%;
+       margin-left:16%;
+   }
+   
+   /* SLIDER */
+   
+   .CSSgal .slider {
+       height: 100%;
+       white-space: nowrap;
+       font-size: 0;
+       transition: 0.8s;
+   }
+   
+   /* SLIDES */
+   
+   .CSSgal .slider > * {
+       font-size: 1rem;
+       display: inline-block;
+       white-space: normal;
+       vertical-align: top;
+       height: 100%;
+       width: 100%;
+       background: none 50% no-repeat;
+       background-size: cover;
+   }
+   
+   /* PREV/NEXT, CONTAINERS & ANCHORS */
+   
+   .CSSgal .prevNext {
+       position: absolute;
+       z-index: 1;
+       top: 50%;
+       width: 100%;
+       height: 0;
+   }
+   
+   .CSSgal .prevNext > div+div {
+       visibility: hidden; /* Hide all but first P/N container */
+   }
+   
+   .CSSgal .prevNext a {
+       background: rgba(255, 255, 255,   0);
+       position: absolute;
+       width:       60px;
+       height:      60px;
+       line-height: 60px; /* If you want to place numbers */
+       text-align: center;
+       opacity: 0.7;
+       -webkit-transition: 0.3s;
+                       transition: 0.3s;
+       -webkit-transform: translateY(-50%);
+                       transform: translateY(-50%);
+       left: 0;
+   }
+   .CSSgal .prevNext a:hover {
+       opacity: 1;
+   }
+   .CSSgal .prevNext a+a {
+       left: auto;
+       right: 0;
+   }
+   
+   /* NAVIGATION */
+   
+   .CSSgal .bullets {
+       position: absolute;
+       z-index: 2;
+       bottom: 0;
+       padding: 10px 0;
+       width: 100%;
+       text-align: center;
+   }
+
+   .realisationSlidePC .CSSgal .bullets {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+   .CSSgal .bullets > a {
+       display: inline-block;
+       width:       30px;
+       height:      30px;
+       line-height: 30px;
+       text-decoration: none;
+       text-align: center;
+       background: rgba(255, 255, 255, 1);
+       -webkit-transition: 0.3s;
+                       transition: 0.3s;
+   }
+   .CSSgal .bullets > a+a {
+       background: rgba(0, 0, 0, 0.0); /* Dim all but first */
+   }
+   .CSSgal .bullets > a:hover {
+       background: rgba(0, 0, 0, 0.2) !important;
+   }
+   
+   /* NAVIGATION BUTTONS */
+   /* ALL: */
+   .CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+   /* ACTIVE */
+   #s1:target ~ .bullets >*:nth-child(1) {background: rgba(0, 0, 0,   0.2);}
+   #s2:target ~ .bullets >*:nth-child(2) {background: rgba(0, 0, 0,   0.2);}
+   #s3:target ~ .bullets >*:nth-child(3) {background: rgba(0, 0, 0,   0.2);}
+   #s4:target ~ .bullets >*:nth-child(4) {background: rgba(0, 0, 0,   0.2);}
+   #s5:target ~ .bullets >*:nth-child(5) {background: rgba(0, 0, 0,   0.2);}
+   #s6:target ~ .bullets >*:nth-child(6) {background: rgba(0, 0, 0,   0.2);}
+   #s7:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
+   #s8:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
+   #s9:target ~ .bullets >*:nth-child(9) {background: rgba(0, 0, 0,   0.2);}
+   #s10:target ~ .bullets >*:nth-child(10) {background: rgba(0, 0, 0,   0.2);}
+
+
+   #s1PC:target ~ .bullets >*:nth-child(1) {background: rgba(0, 0, 0,   0.2);}
+   #s2PC:target ~ .bullets >*:nth-child(2) {background: rgba(0, 0, 0,   0.2);}
+   #s3PC:target ~ .bullets >*:nth-child(3) {background: rgba(0, 0, 0,   0.2);}
+   #s4PC:target ~ .bullets >*:nth-child(4) {background: rgba(0, 0, 0,   0.2);}
+   #s5PC:target ~ .bullets >*:nth-child(5) {background: rgba(0, 0, 0,   0.2);}
+   #s6PC:target ~ .bullets >*:nth-child(6) {background: rgba(0, 0, 0,   0.2);}
+   #s7PC:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
+   #s8PC:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
+  
+
+
+   /* More slides? Add here more rules */
+   
+   /* PREV/NEXT CONTAINERS VISIBILITY */
+   /* ALL: */
+   .CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+   /* ACTIVE: */
+   #s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+   #s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+   #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+   #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+   #s5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+   #s6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+   #s7:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+   #s8:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+   #s9:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
+   #s10:target ~ .prevNext >*:nth-child(10) {visibility: visible;}
+
+   #s1PC:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+   #s2PC:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+   #s3PC:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+   #s4PC:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+   #s5PC:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+   #s6PC:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+   #s7PC:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+   #s8PC:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+  
+
+
+   /* More slides? Add here more rules */
+   
+   /* SLIDER ANIMATION POSITIONS */
+   
+   #s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+   #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+   #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+   #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+   #s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+   #s6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+   #s7:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+   #s8:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+   #s9:target ~ .slider {transform: translateX(-800%); -webkit-transform: translateX(-800%);}
+   #s10:target ~ .slider {transform: translateX(-900%); -webkit-transform: translateX(-900%);}
+
+   #s1PC:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+   #s2PC:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+   #s3PC:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+   #s4PC:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+   #s5PC:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+   #s6PC:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+   #s7PC:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+   #s8PC:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+  
+   /* More slides? Add here more rules */
+   
+   
+   /* YOU'RE THE DESIGNER! 
+      ____________________
+      All above was mainly to get it working :)
+      CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+   
+   .CSSgal{
+       color: #fff;	
+       text-align: center;
+   }
+
+   .CSSgal a {
+       border-radius: 50%;
+       margin: 0 3px;
+       color: rgba(0,0,0,1);
+       text-decoration: none;
+   }
+   
+   .slide{
+       width:100%;
+
+   }
+    .slideContent{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        height:100%;
+        margin-left:10%;
+
+    }
+
+
+
+
+   .prevNext a i{
+       font-size:270%
+   }
+
+   .imgSlide{
+    max-height:33vw;
+    width:auto;
+    max-width:100%
+
+   }
+
+.slideContent h4 {
+    position: absolute;
+    bottom:4.5vw;
+    width:80%;
+    color:black;
+    /* text-align:left; */
+    font-family: 'PT Mono';
+
+}
+
+.realisationSlidePC .slideContent h4
+{
+    position: relative;
+    bottom:0;
+
+}
+
+
+
+.slideContent p {
+    position: absolute;
+    bottom:4vw;
+    width:80%;
+    color:black;
+    /* text-align:left; */
+    font-family: 'PT Mono';
+
+}
+
+
+.realisationSlidePC .slideContent p {
+    position: relative;
+    bottom:0;
+    margin-bottom:30px;
+    bottom:20px;
+    
+
+}
+
+
+
+
+.titleSlide{
+    position:absolute;
+    top:1.5vw;
+    left:10%;
+    color:black;
+    font-size: 100%;
+    font-weight:bold;
+    font-family: 'PT Mono';
+
+}
+
+.descriptionSlide{
+    position:absolute;
+    top:3.5vw;
+    left:10%;
+    width:33%;
+    color:black;
+    font-size: 100%;
+    font-family: 'PT Mono';
+    text-align:left;
+
+
+}
+
+.realisationSlidePC .titleSlide{
+position:relative;
+  
+    left:10%;
+    color:black;
+    font-size: 100%;
+    font-weight:bold;
+    font-family: 'PT Mono';
+    text-align:left;
+
+}
+
+.realisationSlidePC .descriptionSlide{
+ position:relative;
+   
+    left:10%;
+    width:50%;
+    color:black;
+    font-size: 100%;
+    font-family: 'PT Mono';
+    text-align:left;
+    margin-bottom:85px;
+
+
+}
+
+
+
+/* #webDevNav, #graphismeNav, #designNav, #softSkillsNav, #realisationWebNav, #realisationGraphismeNav, #realisationDesignNav, #realisationOtherNav{
+    margin-left:20px;
+} */
+
+.specsPc{
+    text-align:left;
+    margin-left:10%;
+    margin-top:40px;
+    font-family: 'PT Mono';
+
+}
+
+
+
+#codCut{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:19%;
+
+    width:40%;
+
+}
+
+
+
