@@ -830,6 +830,14 @@ font-size: 130%;
    #s7PC:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
    #s8PC:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
   
+   #s1SAFE:target ~ .bullets >*:nth-child(1) {background: rgba(0, 0, 0,   0.2);}
+   #s2SAFE:target ~ .bullets >*:nth-child(2) {background: rgba(0, 0, 0,   0.2);}
+   #s3SAFE:target ~ .bullets >*:nth-child(3) {background: rgba(0, 0, 0,   0.2);}
+   #s4SAFE:target ~ .bullets >*:nth-child(4) {background: rgba(0, 0, 0,   0.2);}
+   #s5SAFE:target ~ .bullets >*:nth-child(5) {background: rgba(0, 0, 0,   0.2);}
+   #s6SAFE:target ~ .bullets >*:nth-child(6) {background: rgba(0, 0, 0,   0.2);}
+   #s7SAFE:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
+   #s8SAFE:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
 
 
    /* More slides? Add here more rules */
@@ -859,6 +867,15 @@ font-size: 130%;
    #s8PC:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
   
 
+   #s1SAFE:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+   #s2SAFE:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+   #s3SAFE:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+   #s4SAFE:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+   #s5SAFE:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+   #s6SAFE:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+   #s7SAFE:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+   #s8SAFE:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+
 
    /* More slides? Add here more rules */
    
@@ -883,6 +900,16 @@ font-size: 130%;
    #s6PC:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
    #s7PC:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
    #s8PC:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+
+   #s1SAFE:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+   #s2SAFE:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+   #s3SAFE:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+   #s4SAFE:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+   #s5SAFE:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+   #s6SAFE:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+   #s7SAFE:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+   #s8SAFE:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+  
   
    /* More slides? Add here more rules */
    
@@ -1050,5 +1077,29 @@ position:relative;
 
 }
 
+#safeGal{
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
 
+#safe{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+}
 
+#safe1{
+    width:100%;
+}
+#safe2{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+}
+
+#safeImg{
+    width:60%
+}
