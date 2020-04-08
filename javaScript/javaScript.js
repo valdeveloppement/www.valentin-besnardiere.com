@@ -324,6 +324,7 @@ var particleCanvas3 = new ParticleNetwork(canvasDiv3, options);
 //........................ Timeline Data.......................
 
 var timelineData =[
+  {side:"right", type:"experience", title:"Développeur Application Mobile - React-Native / Chef de projet", info:" 3 mois" , place:"Agence Patte Blanche, Montpellier", date:"2020", xPos:0 },
   {side:"left", type:"schooling", title:" <i class=\"fas fa-graduation-cap\"></i> Formation Développeur Mobile / Java React-Native", info:" 9 mois" , place:"ADRAR, Montpellier", date:"2019", xPos:0 },
   {side:"right", type:"experience", title:"Gerant à \"Radio Swing Montpellier\"", info:"2 ans" , place:"Montpellier", date:"2017", xPos:0 },
   {side:"left", type:"experience", title:"Service à la personne", info:"2 ans" , place:"Montpellier", date:"2016", xPos:0 },
