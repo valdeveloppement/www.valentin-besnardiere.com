@@ -840,6 +840,27 @@ font-size: 130%;
    #s7SAFE:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
    #s8SAFE:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
 
+   #s1TAB:target ~ .bullets >*:nth-child(1) {background: rgba(0, 0, 0,   0.2);}
+   #s2TAB:target ~ .bullets >*:nth-child(2) {background: rgba(0, 0, 0,   0.2);}
+   #s3TAB:target ~ .bullets >*:nth-child(3) {background: rgba(0, 0, 0,   0.2);}
+   #s4TAB:target ~ .bullets >*:nth-child(4) {background: rgba(0, 0, 0,   0.2);}
+   #s5TAB:target ~ .bullets >*:nth-child(5) {background: rgba(0, 0, 0,   0.2);}
+   #s6TAB:target ~ .bullets >*:nth-child(6) {background: rgba(0, 0, 0,   0.2);}
+   #s7TAB:target ~ .bullets >*:nth-child(7) {background: rgba(0, 0, 0,   0.2);}
+   #s8TAB:target ~ .bullets >*:nth-child(8) {background: rgba(0, 0, 0,   0.2);}
+   #s9TAB:target ~ .bullets >*:nth-child(9) {background: rgba(0, 0, 0,   0.2);}
+   #s10TAB:target ~ .bullets >*:nth-child(10) {background: rgba(0, 0, 0,   0.2);}
+   #s11TAB:target ~ .bullets >*:nth-child(11) {background: rgba(0, 0, 0,   0.2);}
+   #s12TAB:target ~ .bullets >*:nth-child(12) {background: rgba(0, 0, 0,   0.2);}
+   #s13TAB:target ~ .bullets >*:nth-child(13) {background: rgba(0, 0, 0,   0.2);}
+   #s14TAB:target ~ .bullets >*:nth-child(14) {background: rgba(0, 0, 0,   0.2);}
+   #s15TAB:target ~ .bullets >*:nth-child(15) {background: rgba(0, 0, 0,   0.2);}
+   #s16TAB:target ~ .bullets >*:nth-child(16) {background: rgba(0, 0, 0,   0.2);}
+   #s17TAB:target ~ .bullets >*:nth-child(17) {background: rgba(0, 0, 0,   0.2);}
+   #s18TAB:target ~ .bullets >*:nth-child(18) {background: rgba(0, 0, 0,   0.2);}
+
+
+
 
    /* More slides? Add here more rules */
    
@@ -877,6 +898,26 @@ font-size: 130%;
    #s7SAFE:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
    #s8SAFE:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
 
+   #s1TAB:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+   #s2TAB:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+   #s3TAB:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+   #s4TAB:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+   #s5TAB:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+   #s6TAB:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+   #s7TAB:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+   #s8TAB:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+   #s9TAB:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
+   #s10TAB:target ~ .prevNext >*:nth-child(10) {visibility: visible;}
+   #s11TAB:target ~ .prevNext >*:nth-child(11) {visibility: visible;}
+   #s12TAB:target ~ .prevNext >*:nth-child(12) {visibility: visible;}
+   #s13TAB:target ~ .prevNext >*:nth-child(13) {visibility: visible;}
+   #s14TAB:target ~ .prevNext >*:nth-child(14) {visibility: visible;}
+   #s15TAB:target ~ .prevNext >*:nth-child(15) {visibility: visible;}
+   #s16TAB:target ~ .prevNext >*:nth-child(16) {visibility: visible;}
+   #s17TAB:target ~ .prevNext >*:nth-child(17) {visibility: visible;}
+   #s18TAB:target ~ .prevNext >*:nth-child(18) {visibility: visible;}
+
+
 
    /* More slides? Add here more rules */
    
@@ -910,6 +951,26 @@ font-size: 130%;
    #s6SAFE:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
    #s7SAFE:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
    #s8SAFE:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+
+   #s1TAB:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+   #s2TAB:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+   #s3TAB:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+   #s4TAB:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+   #s5TAB:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+   #s6TAB:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+   #s7TAB:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+   #s8TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+   #s9TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-800%);}
+   #s10TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-900%);}
+   #s11TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1000%);}
+   #s12TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1100%);}
+   #s13TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1200%);}
+   #s14TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1300%);}
+   #s15TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1400%);}
+   #s16TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1500%);}
+   #s17TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1600%);}
+   #s18TAB:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-1700%);}
+
   
   
    /* More slides? Add here more rules */
